@@ -1,0 +1,55 @@
+:root {
+    --RIT_BROWN:#513127;
+    --RIT_ORANGE:#F36E21;
+    --DARK_GREY:#333333;
+    --LIGHT_GREY:#E7E7E7;
+    --ATLAS_BLUE:#2196F3;
+    --ATLAS_DARK_BLUE:#004466;
+    --INK_ALCHEMY_PURPLE:#652D7E;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /*height: 100vh;*/
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    font-size: 14px;
+    <!--font-family: "Charis SIL", "Gentium Plus", "Segoe UI", "Doulos SIL", "DejaVu Sans", "Lucida Sans Unicode", "Lucida Grande", "Arial Unicode MS", sans-serif !important;-->
+    line-height: 100%;
+    background-color: var(--DARK_GREY);
+    /*padding-top: 35px;*/
+}
+
+
+/**** TEXTAREA ********************************************************************************************************/
+textarea {
+    resize: none;
+    width: 100%;
+    /*height: 28.85em;*/
+    border: 4px solid var(--ATLAS_BLUE);
+    border-radius: 0.5em;
+    background-color: var(--LIGHT_GREY);
+    padding: 10px;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+/**** LINKS ***********************************************************************************************************/
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--INK_ALCHEMY_PURPLE) !important;
+    text-decoration: none;
+}
+
+.custom-audio {
+    background-color: var(--LIGHT_GREY) !important;
+}
